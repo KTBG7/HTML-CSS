@@ -3,14 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link href="gallery.css" type="text/css" rel="stylesheet">
     <title>Gallery</title>
 </head>
 <body>
-    <h1 id="intro">This is my Gallery!</h1>
-    <p id="intro">In this gallery, I have pictures of my hobbies and friends and family!</p>
-    <p id="hobbies">These are my friends and family!</p>
-    <img src="./assets/theboys.jpg">
-    <p>These are my hobbies!</p>
-    <video src="./assets/355.mov" autoplay controls>355 Deadlift!</video>
+    <div class="wrapper">
+        <nav class="navBar">
+            <a href="#">
+                <img src="./assets/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <br>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 class="anim">Gallery</h1>
+            <p id="story" class="anim">Friends and Family</p>
+        </header>
+        <div class="me">
+            <img src="./assets/theboys.jpg">
+            <img src="./assets/family.jpg">
+            <img src="./assets/og.jpg">
+            <img src="./assets/bravo.jpg">
+        </div>
+        <div class="header2">
+            <h1 class="anim">Hobbies!</h1>
+            <p class="anim">These are some pictures and Videos of all my Hobbies and my last squat before quarantine ;-;</p>
+        </div>
+        <div class="me">
+            <video src="./assets/355.mov" controls>355 Deadlift!</video>
+            <video src="./assets/grandcentral.mov" controls>Grand Central Station</video>
+            <img src="./assets/newyork.jpg">
+            <video src="./assets/video0.mov"controls>Last Squat before Quarantine.</video>
+            <img src="./assets/pc.jpg">
+            <img src="./assets/flags.jpg">
+            <img src="./assets/hackor.png">
+            <img src="./assets/cathedral.jpg">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.anim');
+        </script>
 </body>
 </html>
