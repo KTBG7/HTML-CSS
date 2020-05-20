@@ -109,3 +109,7 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
     background: #2980b9;
 }
+#logo {
+    height: 60px;
+    width: 60px;
+}

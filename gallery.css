@@ -140,3 +140,7 @@ header{
         width: 90%;
     }
 }
+#logo {
+    height: 60px;
+    width: 60px;
+}

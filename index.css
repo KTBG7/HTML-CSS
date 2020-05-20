@@ -25,12 +25,12 @@ body{
 
 h1 {
     color: white;
-    font-size: 48px;
+    font-size: 76px;
 }
 
 p{
     color: white;
-    font-size: 16px;
+    font-size: 36px;
     font-weight: 300;
 }
 
@@ -139,4 +139,8 @@ header{
         font-size:12px;
         width: 90%;
     }
+}
+#logo {
+    height: 60px;
+    width: 60px;
 }
